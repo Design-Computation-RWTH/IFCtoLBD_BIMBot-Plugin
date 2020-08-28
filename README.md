@@ -1,4 +1,5 @@
 # IFCtoLBD  BimBot service plugin for BIMserver
+v1.1
 
 ![BIMserver BOT](https://raw.githubusercontent.com/jyrkioraskari/IFCtoLBD_BIMBot-Plugin/master/doc/architecture.png)
 

@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.rwth-aachen.dc.lbd</groupId>
 	<artifactId>IFCtoLBD_BIMBot-Plugin</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<description>IFCtoLBD BimBot service for BIMserver</description>
 	<organization>
 		<name>RWTH-Aachen DC</name>
@@ -74,16 +74,15 @@
 			<version>3.14.0</version>
 		</dependency>
 		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.0</version>
-			<scope>compile</scope>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>[2.9.10.5,)</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>23.0</version>
+			<version>29.0-jre</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.github.pipauwel/ifcParserLib -->
 		<!-- This is needed so that the plugin converter can find the classes -->

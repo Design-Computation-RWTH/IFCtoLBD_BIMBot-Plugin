@@ -27,7 +27,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-//Modified version of the original org.bimserver.plugins.services.bstractService 
+//Modified version of the original org.bimserver.plugins.services.AbstractService 
 //Modified by Jyrki Oraskari, 2020
 
 
